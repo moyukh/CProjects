@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ $# -le 0 ]
+then
+  make clean
+  make
+fi

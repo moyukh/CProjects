@@ -1,0 +1,12 @@
+David Stites
+Project 3: SHELL
+3/8/06
+COMPLETED: 3-9-06
+
+1.  Process creation, execution, file redirection, pipes, background, "exit", "printenv", 
+wildcarding, ctrl-c, zombie processes, "setenv", "unsetenv", "cd", special and escape 
+characters, quotes, environment variable expansion, tilde expansion, subshell, isatty()
+
+2.  None
+
+3.  None
