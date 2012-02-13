@@ -1,0 +1,47 @@
+ /*
+  URLNumList *add = new URLNumList();
+  URLNumList *find = new URLNumList();
+  
+  add -> _num = 3;
+  add -> _next = NULL;
+  
+  _wordToURLList -> addRecord("Moyukh", add);
+  
+  add = new URLNumList();
+  add -> _num = 7;
+  add -> _next = NULL;
+  
+  _wordToURLList -> addRecord("Moyukh", add);
+  
+  add = new URLNumList();
+  add -> _num = 1;
+  add -> _next = NULL;
+  
+  _wordToURLList -> addRecord("Moyukh", add);
+  
+  find = (URLNumList *)_wordToURLList -> findRecord("Moyukh");
+  
+  printf("%d\n", find -> _num);
+  
+  find = find -> _next;
+  
+  printf("%d\n", find -> _num);
+  
+  find = find -> _next;
+  
+  printf("%d\n", find -> _num);
+  */
+  
+  /*
+  fstream file;
+  file.open("word.txt", ios::in);
+  char line[300];
+  if (file.is_open())
+  {
+	  while(!file.eof())
+	  {
+		  getline(file, line);
+		  printf("%s\n", line);
+	  }
+	  file.close();
+  }*/
