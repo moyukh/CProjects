@@ -63,9 +63,9 @@ int HashTable<Data>::hash(const char * key)
 	//printf("hash %s", key);
 	while (*key != '\0')
 	{
-		//printf("%c ", *key);
+		printf("%c ", *key);
 		hashNum += *key; //sum all chars of key
-		*key++;
+		key++;
 	}
 	//printf("\n");
   return hashNum;
@@ -76,7 +76,7 @@ HashTable<Data>::HashTable()
 {
   // TODO: Initialize the hash table
   //_buckets = new HashTableEntry<Data>;
-  printf("Constructor\n");
+  //printf("Constructor\n");
   _buckets = (HashTableEntry<Data>**)malloc(sizeof(HashTableEntry<Data>*) * TableSize); //I really shoulda used new
   for (int i = 0; i<TableSize; i++)
   {

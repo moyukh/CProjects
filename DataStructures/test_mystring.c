@@ -8,8 +8,7 @@ int mystrcmp( const char * a, const char * b );
 char * mystrstr( const char * dest, const char * src );
 char * mystrdup( const char * s1);
 
-int
-main()
+int main()
 {
   /* test mystrcpy */
   char s1[30];

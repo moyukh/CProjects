@@ -73,31 +73,31 @@ test_mysort: test_mysort.o mysort.o
 
 test:
 	rm -f test_results
-	test_mystring && \
+	./test_mystring && \
 		(echo "test_mystring   OK" >> test_results) || \
 		(echo "test_mystring   Failed" >> test_results) && \
-	test_list && \
+	./test_list && \
 		(echo "test_list       OK" >> test_results) || \
 		(echo "test_list       Failed" >> test_results) && \
-	test_mysort && \
+	./test_mysort && \
 		(echo "test_mysort     OK" >> test_results) || \
 		(echo "test_mysort     Failed" >> test_results) && \
-	HashTableTest test1 && \
+	./HashTableTest test1 && \
 		(echo "HashTableTest test1  OK" >> test_results) || \
 		(echo "HashTableTest test1  Failed" >> test_results) && \
-	HashTableTest test2 && \
+	./HashTableTest test2 && \
 		(echo "HashTableTest test2  OK" >> test_results) || \
 		(echo "HashTableTest test2  Failed" >> test_results) && \
-	HashTableTest test3 && \
+	./HashTableTest test3 && \
 		(echo "HashTableTest test3  OK" >> test_results) || \
 		(echo "HashTableTest test3  Failed" >> test_results) && \
-	HashTableTest test4 && \
+	./HashTableTest test4 && \
 		(echo "HashTableTest test4  OK" >> test_results) || \
 		(echo "HashTableTest test4  Failed" >> test_results) && \
-	HashTableTest test5 && \
+	./HashTableTest test5 && \
 		(echo "HashTableTest test5  OK" >> test_results) || \
 		(echo "HashTableTest test5  Failed" >> test_results) && \
-	HashTableTest test6 && \
+	./HashTableTest test6 && \
 		(echo "HashTableTest test6  OK" >> test_results) || \
 		(echo "HashTableTest test6  Failed" >> test_results) && \
 	echo && \
